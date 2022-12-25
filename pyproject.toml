@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-snake"
+version = "0.1.0"
+description = ""
+authors = ["Django-B <django.ppp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_snake"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pygame = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
